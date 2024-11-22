@@ -13,7 +13,7 @@ const Projects = () => {
         Projects
       </motion.h2>
       {PROJECTS.map((project, index) => (
-        <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+        <div key={index} className="mb-10 flex flex-wrap lg:justify-center">
           <div className="w-full lg:w-1/4">
             <motion.img
               initial={{ x: -100, opacity: 0 }}
@@ -30,9 +30,9 @@ const Projects = () => {
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1, transition: { duration: 1 ,delay: 0.5 } }}
           viewport={{ once: true }}
-          className="w-full lg:w-3/4">
+          className="w-full lg:w-3/4 lg:max-w-xl">
             <h3 className="mb-2 font-semibold">{project.title}</h3>
-            <p className="mb-4 text-neutral-400">{project.description}</p>
+            <p className="text-neutral-400">{project.description}</p>
             <div className="flex items-center flex-wrap gap-x-4">
               {project.technologies.map((technology, index) => (
                 <div
