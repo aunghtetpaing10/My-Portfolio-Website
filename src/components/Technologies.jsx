@@ -2,7 +2,7 @@ import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { GrMysql } from "react-icons/gr";
 import { motion } from "motion/react";
 
 const Technologies = () => {
@@ -59,7 +59,7 @@ const Technologies = () => {
           transition={{ duration: 2, repeat: Infinity, delay: 0.8 }}
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <BiLogoPostgresql className="text-4xl sm:text-6xl text-sky-700" />
+          <GrMysql className="text-4xl sm:text-6xl text-sky-700" />
         </motion.div>
       </motion.div>
     </div>
