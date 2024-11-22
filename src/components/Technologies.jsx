@@ -3,6 +3,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
+import { SiTypescript } from "react-icons/si";
 import { motion } from "motion/react";
 
 const Technologies = () => {
@@ -60,6 +61,13 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <GrMysql className="text-4xl sm:text-6xl text-sky-700" />
+        </motion.div>
+        <motion.div
+          animate={{ y: [0, -10, 0] }}
+          transition={{ duration: 2, repeat: Infinity, delay: 0.8 }}
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-4xl sm:text-6xl text-blue-600" />
         </motion.div>
       </motion.div>
     </div>
